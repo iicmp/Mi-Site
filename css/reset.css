@@ -16,4 +16,5 @@ input{
 /* 消除a标签默认样式 */
 a{
     text-decoration:none;
+    color:red;
 }
