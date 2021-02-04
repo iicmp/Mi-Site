@@ -12,9 +12,10 @@ ul,ol{
 input{
     border:none;
     outline:none;
+    padding:none;
 }
 /* 消除a标签默认样式 */
 a{
     text-decoration:none;
-    color:red;
+   
 }

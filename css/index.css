@@ -1,12 +1,98 @@
+/* #region body部分 */
 body{
     font: 14px/1.5 Helvetica Neue,Helvetica,Arial,Microsoft Yahei,Hiragino Sans GB,Heiti SC,WenQuanYi Micro Hei,sans-serif;
     color: #333;
     background-color: #fff;
     min-width: 1226px;
 }
-/* 顶部栏 */
+.container{
+    width:1226px;
+    margin:0 auto;
+}
+/* #endregion */
+
+/* #region 顶部栏 */
 .topbar{
     width:100%;
-    height:100px;
-    background-color: red;
+    height:40px;
+    color:#b0b0b0;
+    font-size: 12px;
+    background-color: #333; 
 }
+.topbar .container .topbar-list{
+    float:left;
+}
+.topbar .container .shop{
+    float:right;
+    width:120px;
+    height:40px;
+    line-height: 40px;
+    text-align: center;
+    background-color: #424242;
+}
+.topbar .container .login{
+    float:right;
+    width:180px;
+    text-align: center;
+}
+.topbar a{
+    display:inline-block;
+    line-height: 40px;
+    color:#b0b0b0;
+}
+.topbar a:hover{
+    color:#fff;
+}
+.topbar .shop:hover{
+    background-color: #fff;
+    color:coral;
+}
+.topbar span{
+    color:#424242;
+    margin:0 .5em;
+}
+/* #endregion */
+
+/* #region 导航栏 */
+.header{
+    height:100px;
+}
+.header .header-logo{
+    float:left;
+}
+.header .header-logo .mi-logo{
+    margin-top:22px;
+}
+
+.header .header-list{
+    float:left;   
+}
+.header .header-list a{
+    font:16px;
+    color:black;
+    line-height: 100px;
+    margin-left:1.5em;
+}
+.header .header-list a:hover{
+    color:orange;
+}
+
+.header .header-search{
+    float:right;
+    height:100px;
+}
+.header .header-search .search-ipt {
+    border:1px #b0b0b0 solid;
+    height: 35px;
+    margin-top: 32px;
+    color:darkgray;
+}
+.header .header-search .search-btn{
+    border:1px #b0b0b0 solid;
+    height: 39px;
+    width:37px;
+    background-color: #fff;
+    margin-top: 32px;
+    margin-left:-5px;
+}
+/* #endregion */
