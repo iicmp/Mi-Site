@@ -54,29 +54,74 @@ body{
 /* #endregion */
 
 /* #region 导航栏 */
-.header{
-    height:100px;
-}
+
+/* logo */
 .header .header-logo{
+    height:100px;
     float:left;
 }
 .header .header-logo .mi-logo{
     margin-top:22px;
 }
-
-.header .header-list{
-    float:left;   
+.header .header-logo .mifen{
+    margin-left:50px;
 }
-.header .header-list a{
-    font:16px;
+/* 横列表 */
+.header .header-hlist{
+    float:right;   
+    height:100px;
+    margin-right:70px;
+    position: relative;  
+    z-index: 5;
+}
+.header .header-hlist a{
+    font-size:16px;
     color:black;
+    width:200px;
+    height:50px;
     line-height: 100px;
     margin-left:1.5em;
 }
-.header .header-list a:hover{
-    color:orange;
+.header .header-hlist a:hover{
+    color:#FE4E37;
 }
-
+/* 竖列表 */
+.header .header-vlist{
+    position: relative;
+    z-index: 3;
+}
+.header .header-vlist ul{
+    clear:both;
+    background-color: grey;
+    width:250px;
+    height:460px;
+    z-index: 3;
+   
+}
+.header .header-vlist .first-a{
+    margin-top:25px;
+}
+.header .header-vlist a{
+    font-size:14px;
+    color:#fff;
+    line-height: 41px;
+    display:inline-block;
+    width:250px;
+    height:41px;
+    position:relative;
+    z-index: 3;
+}
+.header .header-vlist span{
+    margin-left:25px;
+}
+.header .header-vlist a>i{
+    position:absolute;
+    right:20px;
+}
+.header .header-vlist a:hover{
+    background-color:#FE4E37;
+}
+/* 搜索框 */
 .header .header-search{
     float:right;
     height:100px;
@@ -95,4 +140,123 @@ body{
     margin-top: 32px;
     margin-left:-5px;
 }
+/* #endregion */
+
+
+/* #region 内容主页-海报栏 */
+.site-content .poster{
+    position:relative;
+    height: 25px;
+}
+.site-content .poster .phonepic{
+    width:1226px;
+    z-index: 2;
+    display: inline-block;
+    position:absolute;
+    top:-460px;
+}
+.site-content .poster img{
+    width:1226px;
+    z-index: 2;
+
+}
+.site-content .poster .pre{   
+    position: absolute;   
+    bottom:250px;
+    left:250px;
+    z-index: 3;
+}
+.site-content .poster span{
+    font-size: 50px;
+    color:#CCCCCC;
+}
+.site-content .poster span:hover{
+    background-color:#CCCCCC;
+    color:#fff;
+}
+.site-content .poster .next{
+    position: absolute;  
+    bottom:250px;
+    left:1176px;
+    z-index: 3;
+}
+.site-content .poster .dot {
+    display: inline-block;
+    position: absolute;
+    bottom:30px;
+    right:30px;
+    z-index: 3;  
+    
+    height:25px;
+    /* background-color: black; */
+}
+.site-content .poster .dot a{
+    display: inline-block;
+    border-radius: 50%;
+    width:10px;
+    height:10px;
+    background-color: #CCCCCC;
+    margin-left:10px;
+}
+.site-content .poster .dot a:hover{
+    background-color: #fff;
+}
+/* #endregion */
+
+/* #region 内容主页-图片banner栏 */
+.site-content .picture .tubiao{
+    width:250px;
+    height:161.39px;
+    background-color:	#8B4726;
+    float:left;
+}
+.site-content .picture .tubiao .line{
+    width:250px;
+    height:80.6px;
+}
+.site-content .picture .tubiao .line span{
+    color:#cccccc;
+    text-align: center;
+    width:33.33%;
+    height:80.6px;
+    float:left;    
+}
+.site-content .picture .tubiao .line span:hover{
+    color:#fff;  
+}
+.site-content .picture .tubiao i{
+    display: block; 
+    margin-top:20px;   
+}
+.site-content .picture img{
+    width:300px;
+    float:right;
+    margin-left:25px;
+}
+.site-content .banner img{
+    margin-top:25px;
+    width:1226px;
+}
+/* #endregion */
+
+/* #region 内容详情区 */
+.content .container{
+    background-color: red;
+}
+.content .phone-display .left{
+    
+    width:234px;
+    height:614px;
+    float:left;
+}
+.content .phone-display .right{
+    width:240px;
+    height:303;
+    background-color: #fff;
+    float:left;
+    
+}
+
+   
+
 /* #endregion */
