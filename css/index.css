@@ -240,23 +240,60 @@ body{
 /* #endregion */
 
 /* #region 内容详情区 */
-.content .container{
-    background-color: red;
+.content {
+    background-color:#F7F7F7;  
+}
+.content .text{
+    height:70px;
+    position: relative;
+}
+.content .title{
+    position: absolute;
+    bottom:10px;
+    font-size: 30px;
+  
+}
+.content .all{
+    position:absolute;
+    bottom:5px;
+    left:1120px;
+    font-size:20px;
+    color:#FE4E37;
+}
+.content .phone-display{
+    font-size: 0px;
 }
 .content .phone-display .left{
-    
-    width:234px;
-    height:614px;
     float:left;
 }
 .content .phone-display .right{
+    display: inline-block;
     width:240px;
-    height:303;
+    height:303px;
     background-color: #fff;
-    float:left;
-    
+    margin-left:8px;
+    vertical-align: middle;
+    text-align: center;
 }
+.content .phone-display .bottom{
+    margin-top:8px;
+}
+.container .phone-display .right .name{
+    color:black;
+    font-size: 15px;
+    margin-top: 15px;
+}
+.container .phone-display .right .feature{
+    color:grey;
+    font-size: 10px;
+}
+.container .phone-display .right .price{
+    color:#FE4E37;
+    font-size: 10px;
+    margin-top: 10px;
+}
+/* #endregion */
 
-   
+/* #region 脚部 */
 
 /* #endregion */
