@@ -275,6 +275,10 @@ body{
     vertical-align: middle;
     text-align: center;
 }
+.content .phone-display .right img{
+    width:150px;
+    margin-top:20px;
+}
 .content .phone-display .bottom{
     margin-top:8px;
 }
@@ -295,5 +299,76 @@ body{
 /* #endregion */
 
 /* #region 脚部 */
+.foot{
+    background-color: #fff;
+    height:70px;
+    
+}
+.foot .top a{
+    display: inline-block;
+    line-height: 70px;
+    font-size: 17px;
+    text-align: center;
+    color:grey;
+}
+.foot .top span{
+    font-size: 20px;
+    color:#cccccc;
+}
+.foot .top .line{
+    height: 0.5px;
+    background-color:#CCCCCC; 
+}
+.foot .bottom{
+    height:150px;
+    background-color: #fff;
+
+}
+.foot .bottom ul{
+    display: inline-block;
+    width:163px;
+}
+.foot .bottom li{
+    color:grey;
+    font-size: 10px;
+}
+.foot .bottom .first-row{
+    margin-top:20px;
+    margin-bottom:20px;
+    color:black;
+}
+.foot .bottom .vline{
+    display: inline-block;
+    width:1px;
+    height:100px;
+    background-color: #CCCCCC;
+   
+}
+.foot .bottom .seventh{
+    width:200px;
+}
+.foot .bottom .seventh li{
+    text-align: center;
+} 
+.foot .bottom .number{
+    font-size: 20px;
+    color:#FE4E37;
+
+}
+.foot .bottom .time{
+    font-size: 8px;
+    color:black;
+}
+.foot .bottom .service{
+    color:#FE4E37;
+    font-size: 12px;
+    margin-top: 15px;
+    
+}
+.foot .bottom .service span{
+    border:1px solid #FE4E37;
+    padding:5px;
+   
+}
 
 /* #endregion */
